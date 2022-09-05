@@ -28,22 +28,37 @@ body {
     width: 920px;
     margin: 0 auto;
     padding: 15px;
+    
 }
 
 #area-postagens {
     width: 660px;
     float: left;
-    background: white;
+   
 }
 
 #area-lateral {
     width: 240px;
     float: right;
-    background: white;
-}
+    
+} 
+
 .postagem {
     padding: 20px;
     margin-bottom: 20px;
+    background: white;
+    
+}
+
+.conteudo-lateral {
+    background: white ;
+      padding: 10px;
+      margin-bottom: 20px;
+}
+
+.texto-lateral {
+    font-size: 0.8em;
+    padding: 5px;
     
 }
 
@@ -76,6 +91,7 @@ a:hover {
 #area-cabecalho a:hover {
     color: #f7b600;
     background: #fff;
+    
 }
 /*
 ***Formatações gerais***
@@ -87,6 +103,12 @@ h1 {
 
 h2 {
     color: #f7b600;
+}
+
+h3 {
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
 }
 
 .branco {
@@ -101,3 +123,4 @@ h2 {
     display: block;
     
 }
+
